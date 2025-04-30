@@ -172,7 +172,7 @@ def weightsPlot(weights, kind = "pie", title: str = "Weights"):
         case "pie": fig = go.Figure(data=[go.Pie(labels=list(weights.keys()), values=list(weights.values()))])
         case _ : raise(TypeError("Zatím jsou podporované pouze koláčové grafy 'pie'"))
 
-    fig.update_layout(title_text= title, title_x=0.5, width = 500, height = 500)
+    fig.update_layout(title_text= title, title_x=0.5, width = 700, height = 700)
     fig.show()
 
 def weightsRebalancing(neutral_weights, returns_df, rebalance_freq='ME'):
