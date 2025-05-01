@@ -2,6 +2,7 @@ from collections import OrderedDict
 from typing import List, Tuple, Dict
 import itertools
 import random
+import asyncio
 
 from pypfopt import expected_returns, EfficientSemivariance, EfficientCVaR, EfficientCDaR, HRPOpt, BlackLittermanModel, black_litterman
 from pypfopt.risk_models import CovarianceShrinkage, sample_cov, exp_cov
