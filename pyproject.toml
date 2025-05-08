@@ -17,5 +17,5 @@ dependencies = [
     "riskfolio-lib>=7.0.0",
     "scikit-learn>=1.6.1",
     "seaborn>=0.13.2",
-    "yfinance>=0.2.55",
+    "yfinance==0.2.58",
 ]
