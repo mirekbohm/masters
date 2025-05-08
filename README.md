@@ -1,4 +1,4 @@
-# OPtimalizační metody portfolia
+# Optimalizační metody portfolia
 ## Bc. Miroslav Böhm
 
 ## Popis
@@ -9,8 +9,7 @@ Tato práce byla zpracována pomocí Python manageru s názvem uv, který usnad�
 ### Instalace editoru, git a Python prostředí
 1. Stáhněte editor Visual Studio Code z oficiálních stránek: [(https://code.visualstudio.com/download)](https://code.visualstudio.com/download)
 2. Nainstalujte editor podle pokynů instalačního programu.
-3. Nainstalujte git
-Git si můžete stáhnout a nainstalovat z oficiálních stránek https://git-scm.com/downloads/win nebo následující příkazy stáhnou a nainstalují git automaticky:
+3. Nainstalujte Git, který si můžete stáhnout a nainstalovat z oficiálních stránek https://git-scm.com/downloads/win nebo následující příkazy stáhnou a nainstalují git automaticky:
 
 ```bash
 # Na Windows - otevřete okno PowerShell a zkpoírujte následující příkaz.
@@ -63,5 +62,5 @@ cd masters
 uv sync
 ```
 
-Tímto se připraví virtuální prostředí uv a kód je připraven ke spuštění v editoru
+Tímto se připraví virtuální prostředí uv a kód je připraven ke spuštění v editoru. Veškerý kód je ve složce src.
 
